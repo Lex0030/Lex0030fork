@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN https://github.com/Lex0030/Lex0030fork
+RUN https://github.com/Lex0030/UnHided .
 
 # Copy the local config.json file to the container
 
